@@ -1,0 +1,40 @@
+{
+  "name": "confab-addons",
+  "version": "0.1.0",
+  "description": "Addons for confab (Configuration builder)",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "cover": "gulp cover"
+  },
+  "dependencies": {
+    "confab": "*",
+    "js-yaml": "^3.4.6",
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.7",
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-istanbul": "^0.10.2",
+    "jasmine-reporters": "^2.0.7",
+    "istanbul": "~0.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenjones-cisco/confab-addons.git"
+  },
+  "keywords": [
+    "config",
+    "confab",
+    "yaml"
+  ],
+  "author": "Kenny Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenjones-cisco/confab-addons/issues"
+  },
+  "homepage": "https://github.com/kenjones-cisco/confab-addons#readme"
+}
